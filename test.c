@@ -25,6 +25,7 @@ void myfucntion(int *param)
 int main(void)
 {
 
+  myfunction(arr);
   printf("%d\n",arr[0][0]);
 
 }
