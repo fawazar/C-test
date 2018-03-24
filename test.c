@@ -10,7 +10,7 @@ int i,j;
 int arr[2][3] = {{1,2,3},{4,5,6}};
 //addr = &arr;
 
-void myfucntion(int param)
+void myfucntion(int *param)
 {
   for(i = 0;i<2;i++)
   {
